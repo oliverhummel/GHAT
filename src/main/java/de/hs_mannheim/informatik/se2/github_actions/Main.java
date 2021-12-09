@@ -7,6 +7,9 @@ public class Main {
         
         Calculator c = new Calculator();
         System.out.println("2 + 3 = " + c.add(2, 3));
+        
+        // PMD violation
+        // int number = 12;
     }
 
 }
