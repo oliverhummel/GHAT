@@ -9,4 +9,13 @@ public class Calculator {
         
         return sum;
     }
+    
+    public int mult(int... numbers) {
+        int prod = 1;
+        
+        for (int n : numbers)
+            prod *= n;
+        
+        return prod;
+    }
 }
