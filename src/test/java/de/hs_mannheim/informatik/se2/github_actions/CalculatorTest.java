@@ -18,7 +18,7 @@ class CalculatorTest {
         assertEquals(5, cal.add(5));
         assertEquals(5, cal.add(3, 2));
         assertEquals(-1, cal.add(-5, 1, 1, 2));
-        assertEquals(1, cal.add(0, 0, 1, -1));
+        assertEquals(0, cal.add(0, 0, 1, -1));
     }
 
 }
