@@ -18,4 +18,14 @@ public class Calculator {
         
         return prod;
     }
+    
+    public int max(int... numbers) {
+        int max = Integer.MIN_VALUE;
+        
+        for (int n : numbers)
+            if (n > max)
+                max = n;
+        
+        return max;
+    }
 }
