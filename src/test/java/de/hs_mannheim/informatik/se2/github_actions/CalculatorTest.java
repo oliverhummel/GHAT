@@ -30,6 +30,16 @@ class CalculatorTest {
         assertEquals(-10, cal.mult(-5, 1, 1, 2));
         assertEquals(0, cal.mult(1232, 0, 1, -1));
     }
+    
+    @Test
+    void testMaxFinder() {
+        Calculator cal = new Calculator();
+        
+        assertEquals(5, cal.max(5));
+        assertEquals(3, cal.max(3, 2));
+        assertEquals(2, cal.max(-5, 1, 1, 2));
+        assertEquals(1232, cal.max(1232, 0, 1, -1));
+    }
 
 
 }
